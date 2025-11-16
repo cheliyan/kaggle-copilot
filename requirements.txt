@@ -1,0 +1,21 @@
+# Google ADK and AI
+google-genai
+google-adk>=0.1.0
+google-cloud-aiplatform
+
+# Data Science Libraries
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyter
+xgboost
+lightgbm
+
+# Utilities
+openpyxl
+nbformat
+nbconvert
+joblib
+python-dotenv

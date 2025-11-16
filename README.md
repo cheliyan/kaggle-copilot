@@ -264,15 +264,20 @@ kaggle-copilot/
 
 ## 📈 Performance Benchmarks
 
-Tested on 5 Kaggle competitions:
+**Validated Results:**
 
-| Competition | Manual Time | Agent Time | Baseline Accuracy | Leaderboard Position |
-|-------------|-------------|------------|-------------------|---------------------|
-| **Titanic** | 48 hours | 6 seconds | 83.95% | Top 20% |
-| **House Prices** | 40 hours | 12 seconds | RMSE 0.129 | Top 30% |
-| **Digit Recognizer** | 36 hours | 18 seconds | 97.1% | Top 40% |
+| Competition | Agent Time | Baseline Accuracy | Features Created | Models Tested |
+|-------------|------------|-------------------|------------------|---------------|
+| **Titanic** | 6 seconds | 83.95% (LightGBM) | 6 features | 4 algorithms |
 
-**Average Time Savings**: 47 hours per competition
+**System Capabilities:**
+- ⚡ End-to-end execution in seconds
+- 🎯 Achieves competitive baseline accuracy automatically
+- 🔧 Tests multiple algorithms (Logistic, RF, XGBoost, LightGBM)
+- 📊 Generates complete analysis notebooks and reports
+- 💾 Ready-to-submit prediction files
+
+**Note**: Additional competitions (House Prices, Digit Recognizer, etc.) are planned for validation. The system architecture supports any tabular Kaggle competition
 
 ---
 
